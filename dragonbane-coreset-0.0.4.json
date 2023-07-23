@@ -1,0 +1,37 @@
+{
+    "id": "dragonbane-coreset",
+    "name": "dragonbane-coreset",
+    "title": "Dragonbane - Core Set",
+    "description": "Core Set for Dragonbane",
+    "url": "https://freeleaguepublishing.com/en/games/dragonbane/",
+    "version": "0.0.4",
+    "authors": [
+        {
+            "name": "Patrik Påfvelsson",
+            "discord": "PatrikP",
+            "url": "https://www.patrikp.com/"
+        }
+    ],
+    "minimumCoreVersion": 10,
+        "compatibility": {
+        "minimum": "10",
+        "verified": "11",
+        "maximum": "11"
+    },
+    "packs": [
+        {
+            "name": "dragonbane-coreset",
+            "label": "Dragonbane - Core Set",
+            "path": "./packs/dragonbane-coreset.db",
+            "entity": "Adventure",
+            "type": "Adventure",
+            "system": "dragonbane",
+            "banner": "./modules/dragonbane-coreset/assets/artwork/banner-rules.webp"
+        }
+    ],
+    "scripts": [
+        "scripts/init.js"
+    ],
+    "protected": false,
+    "manifest": "https://foundrymodulesbucket.s3.eu-north-1.amazonaws.com/dragonbane-coreset/dragonbane-coreset-latest.json"
+  }
